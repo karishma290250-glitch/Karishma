@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - S.Karishma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hello, I'm <span>S.Karishma</span></h1>
+    <p>Aspiring Web Developer | Creative Thinker | Tech Enthusiast</p>
+    <button onclick="scrollToSkills()">Explore Skills</button>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about">
+    <img src="profile.jpg" alt="Profile Picture">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I'm a second-year Computer application student passionate about web development and tech. 
+        I love building responsive, interactive web apps that make a difference.
+      </p>
+      <p><strong>Education:</strong> Bachelor of Computer Application, MES College (2024–2027)</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+        <p>HTML</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+        <p>CSS</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+        <p>JavaScript</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React.js">
+        <p>React.js</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+        <p>Python</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return sendMessage()">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
